@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+.one{
+    background-color:brown;
+    color: black;
+    width: 50%;
+    margin-bottom: 5px;
+}
+.two{
+    background-color:red;
+    color: black;
+    width: 50%;
+    margin-bottom: 5x;
+}
+.three{
+    background-color: blue;
+    color: black;
+    width: 50%;
+    margin-bottom: 5px;
+}
+.four{
+    background-color: blueviolet;
+    color: black;
+    width: 50%;
+    margin-bottom: 5px;
+}
+.five{
+    background-color: azure;
+    color: black;
+    width: 50%;
+    margin-bottom: 5px;
+}
+.six{
+    background-color: purple;
+    color: black;
+    width: 50%;
+    margin-bottom: 5px;
+}
+li{
+    display: inline;
+    margin-left: 240px;
+    border: 1px solid black; padding: 1px 5px; 
+    border-radius: 5px;
+}
+li:hover{
+    background-color: white; 
+    color: black;
+}
+}
+}
