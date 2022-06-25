@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+}
+
+.abc{
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+input:hover{
+    border: 3px solid blue;
+}
+form{
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 800px;
+    display: block;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color:black;
+    
+    background-attachment: fixed;
+    background-position: center;
+}
+label{
+    color: white;
+}
+span{
+    color: white;
+}
+    
+}
