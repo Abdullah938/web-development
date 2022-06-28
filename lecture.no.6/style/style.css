@@ -1,0 +1,44 @@
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+.child1{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    
+}
+.child2{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+}
+.child3{
+    background-color: brown;
+    width:250px;
+    height:250px;
+}
+
+
+ul{
+    
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+
+    
+    
+    
+    
+}
+li{
+    background-color: white;
+    padding: 50px;
+}
