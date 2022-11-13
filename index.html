@@ -1,14 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="/AboutUs.html">
+    <title>bootstrap</title>
 </head>
+
+     
+
 <body>
-     <h1>Hello World</h1>
-     <h2>My Name is Abdullah</h2>
-     <h3>morning</h3>
+    <!-- navbar section starts -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">A code</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/AboutUs.html">About Us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ContactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                  <a href="/Login.html"><button class="btn btn-success">LogIn</button>
+                    <button class="btn btn-success">SignUp</button></a>
+
+                </div>
+            </div>
+        </div>
+    </nav>  
+
+      <!-- navbar section ended -->
+
+
+      <!-- courosel section starts -->
+
+    <div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/1st.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome To Code With Abdullah</h2>
+              <p>Development,Production And Testing</p>
+              <button class="btn btn-danger">Development</button>
+              <button class="btn btn-success">Production</button>
+              <button class="btn btn-primary">Testing</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/2nd.jpeg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome To Code With Abdullah</h2>
+              <p>Development,Production And Testing</p>
+              <button class="btn btn-danger">Development</button>
+              <button class="btn btn-success">Production</button>
+              <button class="btn btn-primary">Testing</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/images/3rd.jpeg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Welcome To Code With Abdullah</h2>
+              <p>Development,Production And Testing</p>
+              <button class="btn btn-danger">Development</button>
+              <button class="btn btn-success">Production</button>
+              <button class="btn btn-primary">Testing</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- courosel section ended -->
+
+
+    <div class="container my-4" id="cards">
+        <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img" width="200" height="250" src="/images/card1.jpg" alt="">
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src="/images/card2.jpg" alt="">
+        
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="container my-4" id="cards2" >
+        <div class="row mb-2">
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-primary">World</strong>
+                  <h3 class="mb-0">Featured post</h3>
+                  <div class="mb-1 text-muted">Nov 12</div>
+                  <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                  <img class="bd-placeholder-img" width="200" height="250" src="/images/card3.jpg" alt="">
+        
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                <div class="col p-4 d-flex flex-column position-static">
+                  <strong class="d-inline-block mb-2 text-success">Design</strong>
+                  <h3 class="mb-0">Post title</h3>
+                  <div class="mb-1 text-muted">Nov 11</div>
+                  <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="stretched-link">Continue reading</a>
+                </div>
+                <div class="col-auto d-none d-lg-block">
+                    <img class="bd-placeholder-img" width="200" height="250" src="/images/card4.jpg" alt="">
+        
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="container my-5 " >
+      <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-7 ">
+              <h2 class="featurette-heading">It starts from an idea. <span class="text-muted">It’ll blow your
+                      mind.</span></h2>
+              <p class="lead">You can learn from here witout any hesitation.</p>
+          </div>
+          <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg" src="/images/about1.jpg" alt="">
+
+          </div>
+      </div>
+  </div>
+
+  <div class="container my-5 " id="featurette">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-7 order-md-2 ">
+              <h2 class="featurette-heading">Now we decided to apply our idea here. </h2>
+              <p class="lead">It will be useful for those who wants to be a developer or relateed to like that.</p>
+          </div>
+          <div class=" col-md-5 order-md-1 ">
+              <img class="bd-placeholder-img bd-placeholder-img-lg" src="/images/about2.jpg" alt="">
+
+
+          </div>
+      </div>
+  </div>
+
+  <div class="container my-5 " id="featurette">
+      <div class="row featurette d-flex justify-content-center align-items-center">
+          <div class="col-md-7 ">
+              <h2 class="featurette-heading">Now u can see here and use it . </h2>
+              <p class="lead">So all can  learn from here and share this with others</p>
+          </div>
+          <div class="col-md-5">
+              <img class="bd-placeholder-img bd-placeholder-img-lg" src="/images/about3.jpg" alt="">
+
+          </div>
+      </div>
+  </div>
+
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>© 2022–2022 A Coder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </html>
